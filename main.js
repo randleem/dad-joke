@@ -1,5 +1,3 @@
-console.log("hi");
-
 async function getJoke(){
     let response = await fetch("https://icanhazdadjoke.com/", {
         headers: { accept: "application/json" },
@@ -24,12 +22,39 @@ when clicks display corresponding image and sound effect..
 if working and is too repetetive add more reactions to add variety.. 
 
 */
+let groanSound = document.querySelector("#groan");
+console.log(groanSound);
+let laughingSound = document.querySelector("#laugh");
+console.log(laughingSound);
+
+
+
 function upReaction(){
   upPic.src = "harold_up1.jpg";
-  //play audio
+  laughingSound.play();
+  downPic.src = "";
 }
 
 function downReaction(){
   downPic.src = "harold_down.jpeg";
-  //play audio
+  groanSound.play();
+  upPic.src = "";
 }
+
+
+
+// when reaction is clicked remove other reaction thumb
+//after joke reaction timeOut, a pop up clickable image asks if you want another joke?
+//then reset to the original page layout
+
+
+
+
+
+
+
+
+
+
+
+
