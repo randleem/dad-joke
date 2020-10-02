@@ -1,7 +1,7 @@
 p{
     color: orange;
     text-align: center;
-    font-size: 100px;
+    font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -12,6 +12,14 @@ body{
 h2{
     color: whitesmoke;
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.thumbDiv{
+    width 50%
+}
+.thumbDownDiv{
+    width 50%
+    width = 400 
+    
 }
