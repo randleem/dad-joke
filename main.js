@@ -39,7 +39,7 @@ function upReaction() {
   upPic.src = "harold_up1.jpg"; //random pic generated laugPic${randNum}
   laughingSound.play();
   downPic.src = "";
-  moreJokes.innerText = "click me more more mega BANTZ.....";
+  moreJokes.innerText = "click me for more mega BANTZ.....";
 }
 
 function downReaction() {
