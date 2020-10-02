@@ -1,8 +1,16 @@
-p{
+#header{
     color: orange;
     text-align: center;
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0;
+}
+#rateMe{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 .images{
     text-align: center;
@@ -29,4 +37,7 @@ h2{
 
 #moreJokes{
     color: whitesmoke;
+
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
