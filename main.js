@@ -1,10 +1,12 @@
 async function getJoke(){
     let response = await fetch("https://icanhazdadjoke.com/", {
-        headers: { accept: "application/json" },
+    headers: { accept: "application/json" },
       });
-      let data = await response.json();
-      console.log(data);
+    let data = await response.json();
+    console.log(data);
     h2.innerText = data.joke;
+    upPic.src = "thumbs-up.png";
+    downPic.src = "thumbs-down.png";
 }
 let h2 = document.querySelector("h2")
 getJoke()
