@@ -29,19 +29,25 @@ console.log(groanSound);
 let laughingSound = document.querySelector("#laugh");
 console.log(laughingSound);
 
-
+let moreJokes = document.querySelector("#moreJokes")
+moreJokes.addEventListener("click", getJoke)
 
 function upReaction(){
   upPic.src = "harold_up1.jpg";
   laughingSound.play();
   downPic.src = "";
+  moreJokes.innerText = "want another joke???";
+
 }
 
 function downReaction(){
   downPic.src = "harold_down.jpeg";
   groanSound.play();
   upPic.src = "";
+  moreJokes.innerText = "want another joke???";
 }
+
+
 
 
 
