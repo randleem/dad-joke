@@ -41,7 +41,7 @@ function upReaction(){
 }
 
 function downReaction(){
-  downPic.src = "harold_down.jpeg";
+  downPic.src = "harold_down.jpg";
   groanSound.play();
   upPic.src = "";
   moreJokes.innerText = "want another joke???";
