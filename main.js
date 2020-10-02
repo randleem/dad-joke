@@ -32,37 +32,26 @@ console.log(laughingSound);
 let moreJokes = document.querySelector("#moreJokes")
 moreJokes.addEventListener("click", getJoke)
 
+
+
 function upReaction(){
-  upPic.src = "harold_up1.jpg";
+  // let randomAudioNum = Math.floor(Math.random()*6)+1;
+  upPic.src = "harold_up1.jpg"; //random pic generated laugPic${randNum}
   laughingSound.play();
   downPic.src = "";
-  moreJokes.innerText = "want another joke???";
-
+  moreJokes.innerText = "Here Come More BANTZ.....";
 }
 
 function downReaction(){
+  // let randomAudioNum = Math.floor(Math.random()*6)
   downPic.src = "harold_down.jpg";
   groanSound.play();
   upPic.src = "";
-  moreJokes.innerText = "want another joke???";
+  moreJokes.innerText = "Here Come More BANTZ.....";
 }
-
-
-
-
+// groansound.scr=`groan6.mp3`;
 
 // when reaction is clicked remove other reaction thumb
 //after joke reaction timeOut, a pop up clickable image asks if you want another joke?
 //then reset to the original page layout
-
-
-
-
-
-
-
-
-
-
-
 

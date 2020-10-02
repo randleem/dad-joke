@@ -4,7 +4,9 @@ p{
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+.images{
+    text-align: center;
+}
 body{
     background-color: midnightblue;
 }
@@ -15,10 +17,16 @@ h2{
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.thumbDiv{
+#upPic, #downPic{
+    display: inline-block;
+    margin: 0 auto;
 
 }
-.thumbDownDiv{
-   
-    
+#images{
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+#moreJokes{
+    color: whitesmoke;
 }
