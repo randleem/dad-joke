@@ -1,3 +1,17 @@
-h1{
-    color:blue;
+p{
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-color: midnightblue;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
