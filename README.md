@@ -1,7 +1,7 @@
 # Dad Joke Fetch Hackathon
 
 *2nd October 2020*
-*Week 2 at the [School of Code](https://www.schoolofcode.co.uk)
+*Week 2 at the [School of Code](https://www.schoolofcode.co.uk)*
 
 This was our second week Friday hackathon at the [School of Code](https://www.schoolofcode.co.uk) where we were first introduced to fetch requests and promises. 
 
