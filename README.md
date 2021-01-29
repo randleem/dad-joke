@@ -9,7 +9,7 @@ Jon (my paired-programming partner for the week) and I decided to use this [dad 
 
 Our app displays a random joke, and you can give the joke a thumbs up or a thumbs down
 
-Happy Gaming 👍 **Dad Joke** 👎 
+ 👍 **Dad Joke** 👎 
 
 ## Built with
 
