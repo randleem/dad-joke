@@ -7,7 +7,7 @@ This was our second week Friday hackathon at the [School of Code](https://www.sc
 
 Jon (my paired-programming partner for the week) and I decided to use this [dad joke API](https://icanhazdadjoke.com/api) to create our app.
 
-Our app displays a ranomd joke, and you can give the joke a thumbs up or a thumbs down
+Our app displays a random joke, and you can give the joke a thumbs up or a thumbs down
 
 Happy Gaming 👍 **Dad Joke** 👎 
 
